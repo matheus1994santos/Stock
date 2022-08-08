@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.teste{
+    border-bottom: 0.4px solid #b1eb34;
+    color: #aeaaaa;
+}
