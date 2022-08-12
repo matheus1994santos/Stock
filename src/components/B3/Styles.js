@@ -8,6 +8,7 @@ export const B3Container = styled.section`
 
 export const BdrStock = styled.form`
     color: Black;
+    height: 440px;
 `;
 
 export const InputTexT = styled.input`
@@ -16,10 +17,9 @@ export const InputTexT = styled.input`
 	background: papayawhip;
 	border: 0.5 solid tomato;
     outline: none;
-	border-radius: 3px;
+	border-radius: 18px;
 	/* width: 100%; */
 	margin: 0.5em;
-
 `;
 
 export const InputSubmit = styled.input`
@@ -32,4 +32,48 @@ export const InputSubmit = styled.input`
     text-align:center ;
     outline:none;
     border: 1px solid black;
+    cursor: pointer;
+`;
+
+export const Graphic = styled.section`
+    display: flex;
+    margin: 4px 0;
+    gap: 50px;
+    height: 380px;
+
+    & nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 180px;
+        background-color: pink;
+        border: 3px solid palevioletred;
+        gap: 30px;
+
+        & p{
+            padding: 4px;
+            width: 100%;
+            border-bottom: 1px solid black;
+            cursor: pointer;
+
+            & a{
+                font-size: 18px;
+                font-weight: 700;
+                
+            }
+        }
+    }
+
+    & div{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        background-color: pink;
+        border: 3px solid palevioletred;
+
+        & img{
+            border: 3px solid palevioletred;
+        }
+    }
 `;
